@@ -57,7 +57,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="flex items-center gap-2.5">
           <div className="w-2 h-2 rounded-full bg-[#c8f135] shadow-[0_0_10px_rgba(200,241,53,0.4)]" />
-          <span className="font-mono text-[#e8e8ea] text-base tracking-tight">code helper</span>
+          <span className="font-mono text-[#e8e8ea] text-base tracking-tight">find the bug</span>
         </div>
 
         {/* Tabs - só aparece no login/register */}

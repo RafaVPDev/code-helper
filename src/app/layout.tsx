@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "code helper",
+  title: "find the bug",
   description: "Cole seu erro. Entenda o que aconteceu.",
 };
 
