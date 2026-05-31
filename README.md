@@ -1,4 +1,4 @@
-# code helper
+# find the bug
 
 > AI-powered code error analyzer. Paste your error, understand what happened.
 
@@ -9,7 +9,7 @@
 
 ## What it does
 
-Code Helper lets you paste any error message or stack trace and get a clear, direct explanation of what went wrong and how to fix it — powered by Groq's LLaMA 3.3 70B model.
+'Find the bug' is a code helper that lets you paste any error message or stack trace and get a clear, direct explanation of what went wrong and how to fix it — powered by Groq's LLaMA 3.3 70B model.
 
 Every analysis is saved to your account so you can revisit past debugging sessions anytime.
 
