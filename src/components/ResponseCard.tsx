@@ -1,31 +1,26 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
 
 interface Props {
   response: string;
   loading: boolean;
 }
 
-// Minimal markdown-to-HTML parser for code blocks and inline code
 function parseMarkdown(text: string): string {
   return text
-    // Fenced code blocks
     .replace(/```(\w+)?\n([\s\S]*?)```/g, (_, lang, code) => {
       const escaped = code.replace(/</g, "&lt;").replace(/>/g, "&gt;");
       return `<pre class="code-block">${lang ? `<span class="code-lang">${lang}</span>` : ""}<code>${escaped.trimEnd()}</code></pre>`;
     })
-    // Inline code
     .replace(/`([^`]+)`/g, '<code class="inline-code">$1</code>')
-    // Bold
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-    // Newlines to paragraphs
     .split(/\n\n+/)
     .map((p) => {
       if (p.startsWith("<pre") || p.startsWith("<ul") || p.startsWith("<ol")) return p;
       const lines = p.split("\n").filter(Boolean);
       if (lines.length === 0) return "";
-      // Numbered list
       if (/^\d+\.\s/.test(lines[0])) {
         const items = lines.map((l) => `<li>${l.replace(/^\d+\.\s/, "")}</li>`).join("");
         return `<ol>${items}</ol>`;
@@ -36,6 +31,7 @@ function parseMarkdown(text: string): string {
 }
 
 export default function ResponseCard({ response, loading }: Props) {
+  const t = useTranslations("response");
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -49,15 +45,15 @@ export default function ResponseCard({ response, loading }: Props) {
     <div className={`response-card ${visible ? "response-card--visible" : ""}`}>
       <div className="card-header">
         <span className="card-label">
-          {loading ? "analisando" : "diagnóstico"}
+          {loading ? t("diagnosing") : t("diagnosis")}
         </span>
         {!loading && response && (
           <button
             className="copy-btn"
             onClick={() => navigator.clipboard.writeText(response)}
-            title="Copiar resposta"
+            title={t("copy")}
           >
-            copiar
+            {t("copy")}
           </button>
         )}
       </div>

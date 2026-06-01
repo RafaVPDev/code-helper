@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "history": "history",
+    "close": "close",
+    "signOut": "sign out",
+	"switchLanguage": "switch language"
+  },
+  "hero": {
+    "subtitle": "paste your error. understand what happened."
+  },
+  "input": {
+    "errorLabel": "error message",
+    "errorPlaceholder": "paste your error or exception here...",
+    "codeLabel": "related code",
+    "codePlaceholder": "paste the code snippet where the error occurs...",
+    "optional": "optional"
+  },
+  "actions": {
+    "analyze": "analyze error",
+    "analyzing": "analyzing...",
+    "clear": "clear"
+  },
+  "response": {
+    "diagnosing": "analyzing",
+    "diagnosis": "diagnosis",
+    "copy": "copy"
+  },
+  "history": {
+    "title": "previous analyses",
+    "empty": "no analyses yet."
+  },
+  "login": {
+    "logo": "find the bug",
+    "tabLogin": "sign in",
+    "tabRegister": "create account",
+    "emailLabel": "email",
+    "emailPlaceholder": "your@email.com",
+    "passwordLabel": "password",
+    "passwordPlaceholder": "min. 6 characters",
+    "submitLogin": "sign in",
+    "submitRegister": "create account",
+    "loadingLogin": "signing in...",
+    "loadingRegister": "creating...",
+    "forgotPassword": "forgot my password",
+    "backToLogin": "back to sign in",
+    "recoverTitle": "recover access",
+    "recoverDescription": "enter your email and we'll send you a link to reset your password.",
+    "submitRecover": "send link",
+    "loadingRecover": "sending...",
+    "errorLogin": "Incorrect email or password.",
+    "errorRegister": "Error creating account. Try another email.",
+    "errorRecover": "Error sending email. Please check the address.",
+    "successRegister": "Account created! Check your email to confirm.",
+    "successRecover": "Email sent! Check your inbox."
+  },
+  "resetPassword": {
+    "logo": "find the bug",
+    "title": "new password",
+    "description": "choose a strong password for your account.",
+    "newPasswordLabel": "new password",
+    "newPasswordPlaceholder": "min. 6 characters",
+    "confirmPasswordLabel": "confirm password",
+    "confirmPasswordPlaceholder": "repeat password",
+    "submit": "reset password",
+    "loading": "resetting...",
+    "success": "password reset! redirecting...",
+    "errorMismatch": "Passwords do not match.",
+    "errorLength": "Password must be at least 6 characters.",
+    "errorGeneric": "Error resetting password. Please try again."
+  },
+  "dropdown": {
+    "deleteAccount": "delete account"
+  },
+  "deleteModal": {
+    "title": "delete account",
+    "body": "This will permanently delete your account and all your analysis history. This action cannot be undone.",
+    "cancel": "cancel",
+    "confirm": "yes, delete",
+    "loading": "deleting..."
+  }
+}

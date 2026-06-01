@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "history": "histórico",
+    "close": "fechar",
+    "signOut": "sair",
+	"switchLanguage": "trocar idioma"
+  },
+  "hero": {
+    "subtitle": "cole seu erro. entenda o que aconteceu."
+  },
+  "input": {
+    "errorLabel": "mensagem de erro",
+    "errorPlaceholder": "cole aqui o erro ou exception...",
+    "codeLabel": "código relacionado",
+    "codePlaceholder": "cole o trecho de código onde o erro ocorre...",
+    "optional": "opcional"
+  },
+  "actions": {
+    "analyze": "analisar erro",
+    "analyzing": "analisando...",
+    "clear": "limpar"
+  },
+  "response": {
+    "diagnosing": "analisando",
+    "diagnosis": "diagnóstico",
+    "copy": "copiar"
+  },
+  "history": {
+    "title": "análises anteriores",
+    "empty": "nenhuma análise ainda."
+  },
+  "login": {
+    "logo": "find the bug",
+    "tabLogin": "entrar",
+    "tabRegister": "criar conta",
+    "emailLabel": "email",
+    "emailPlaceholder": "seu@email.com",
+    "passwordLabel": "senha",
+    "passwordPlaceholder": "min. 6 caracteres",
+    "submitLogin": "entrar",
+    "submitRegister": "criar conta",
+    "loadingLogin": "entrando...",
+    "loadingRegister": "criando...",
+    "forgotPassword": "esqueci minha senha",
+    "backToLogin": "voltar para o login",
+    "recoverTitle": "recuperar acesso",
+    "recoverDescription": "informe seu email e enviaremos um link para redefinir sua senha.",
+    "submitRecover": "enviar link",
+    "loadingRecover": "enviando...",
+    "errorLogin": "Email ou senha incorretos.",
+    "errorRegister": "Erro ao criar conta. Tente outro email.",
+    "errorRecover": "Erro ao enviar email. Verifique o endereço.",
+    "successRegister": "Conta criada! Verifique seu email para confirmar.",
+    "successRecover": "Email enviado! Verifique sua caixa de entrada."
+  },
+  "resetPassword": {
+    "logo": "find the bug",
+    "title": "nova senha",
+    "description": "escolha uma senha forte para sua conta.",
+    "newPasswordLabel": "nova senha",
+    "newPasswordPlaceholder": "min. 6 caracteres",
+    "confirmPasswordLabel": "confirmar senha",
+    "confirmPasswordPlaceholder": "repita a senha",
+    "submit": "redefinir senha",
+    "loading": "redefinindo...",
+    "success": "senha redefinida! redirecionando...",
+    "errorMismatch": "As senhas não coincidem.",
+    "errorLength": "A senha precisa ter pelo menos 6 caracteres.",
+    "errorGeneric": "Erro ao redefinir senha. Tente novamente."
+  },
+  "dropdown": {
+    "deleteAccount": "deletar conta"
+  },
+  "deleteModal": {
+    "title": "deletar conta",
+    "body": "Isso vai apagar sua conta e todo o histórico de análises permanentemente. Essa ação não pode ser desfeita.",
+    "cancel": "cancelar",
+    "confirm": "sim, deletar",
+    "loading": "deletando..."
+  }
+}

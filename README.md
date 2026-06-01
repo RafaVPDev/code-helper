@@ -21,6 +21,7 @@ Every analysis is saved to your account so you can revisit past debugging sessio
 - Password recovery flow with custom email templates
 - Analysis history per user, stored with Row Level Security
 - Minimal dark UI with split-panel layout
+- Bilingual interface (Portuguese BR and English) with persistent language preference
 
 ## Tech stack
 
@@ -33,6 +34,7 @@ Every analysis is saved to your account so you can revisit past debugging sessio
 | Auth | Supabase Auth |
 | Database | Supabase (PostgreSQL + RLS) |
 | Deploy | Vercel |
+| i18n | next-intl |
 
 ## Getting started
 
